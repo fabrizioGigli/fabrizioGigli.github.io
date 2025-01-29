@@ -4,7 +4,9 @@
 
 const root = document.getElementById('root');
 const provadiv = document.createElement("div");
-provadiv.innerHTML = "prova";
+const provah1 = document.createElement("h1");
+provah1.innerHTML = "<h1>prova<h1>";
+provadiv.appendChild(provah1);
 document.body.appendChild(provadiv);
 //root.appendChild(provadiv);
 // root.render(
