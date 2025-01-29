@@ -1,8 +1,3 @@
-
-// const Application = require('./application')
-import { Application } from "./application.mjs";
-//import App from './App';
-console.log("Application: "+Application);
 const divArray = [];
 const root = document.createElement("div");
 
