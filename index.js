@@ -3,7 +3,9 @@
 //import App from './App';
 
 const root = document.getElementById('root');
-root.append(<div>{"Qualcosa"}</div>);
+const provadiv = document.createElement("div");
+provadiv.innerHTML = "prova"
+root.appendChild(provadiv);
 // root.render(
 //     <ApplicationMod />
 // );
