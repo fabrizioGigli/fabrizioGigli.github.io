@@ -1,13 +1,22 @@
 
 //const ApplicationMod = require('./application')
 //import App from './App';
-
+const divArray = [];
 const root = document.getElementById("root");
-const provadiv = document.createElement("div");
-const provah1 = document.createElement("h1");
-provah1.innerHTML = "<h1>prova<h1>";
-provadiv.appendChild(provah1);
-root.innerHTML = provadiv;
+const titleDiv = document.createElement("div");
+const paragraphDiv = document.createElement("div");
+const title = document.createElement("h1");
+title.innerHTML = "<h1>My first title<h1>";
+titleDiv.appendChild(title);
+divArray.push(titleDiv);
+const paragraph = document.createElement("p");
+paragraph.innerHTML="<p>My first paragraph</p>";
+paragraphDiv.appendChild(paragraph);
+divArray.push(paragraphDiv);
+for(const el of divArray) {
+    document.body.appendChild()
+}
+// alternative: for loop and consecutive appendChild
 //root.appendChild(provadiv);
 // root.render(
 //     <ApplicationMod />
