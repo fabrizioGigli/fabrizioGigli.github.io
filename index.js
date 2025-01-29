@@ -1,5 +1,5 @@
 
-const ApplicationMod = require('./application')
+//const ApplicationMod = require('./application')
 //import App from './App';
 
 const root = document.getElementById('root');
