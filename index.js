@@ -3,7 +3,7 @@
 //import App from './App';
 
 const root = document.getElementById('root');
-root.append("Qualcosa");
+root.append(<div>{"Qualcosa"}</div>);
 // root.render(
 //     <ApplicationMod />
 // );
