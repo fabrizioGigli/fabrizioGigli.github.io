@@ -3,5 +3,3 @@ const Application = () => {
 }
 
 module.exports = Application;
-
-export default Application;
