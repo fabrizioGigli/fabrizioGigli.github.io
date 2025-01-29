@@ -7,7 +7,7 @@ const provadiv = document.createElement("div");
 const provah1 = document.createElement("h1");
 provah1.innerHTML = "<h1>prova<h1>";
 provadiv.appendChild(provah1);
-document.getElementById("root").appendChild(provadiv);
+root.innerHTML = provadiv;
 //root.appendChild(provadiv);
 // root.render(
 //     <ApplicationMod />
