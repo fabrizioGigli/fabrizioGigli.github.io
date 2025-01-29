@@ -14,7 +14,7 @@ paragraph.innerHTML="<p>My first paragraph</p>";
 paragraphDiv.appendChild(paragraph);
 divArray.push(paragraphDiv);
 for(const el of divArray) {
-    document.body.appendChild()
+    document.body.appendChild(el);
 }
 // alternative: for loop and consecutive appendChild
 //root.appendChild(provadiv);
