@@ -2,7 +2,8 @@
 const ApplicationMod = require('./application')
 //import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <ApplicationMod />
-);
+const root = document.getElementById('root');
+root.append("Qualcosa");
+// root.render(
+//     <ApplicationMod />
+// );
