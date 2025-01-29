@@ -1,5 +1,6 @@
 
-const Application = require('./application')
+// const Application = require('./application')
+import { Application } from "./application";
 //import App from './App';
 console.log("Application: "+Application);
 const divArray = [];
