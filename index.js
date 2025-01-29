@@ -4,8 +4,9 @@
 
 const root = document.getElementById('root');
 const provadiv = document.createElement("div");
-provadiv.innerHTML = "prova"
-root.appendChild(provadiv);
+provadiv.innerHTML = "prova";
+document.body.appendChild(provadiv);
+//root.appendChild(provadiv);
 // root.render(
 //     <ApplicationMod />
 // );
