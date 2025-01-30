@@ -1,22 +1,12 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
+import WorkInProgress from './assets/work-in-progress.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ho modificato questa riga, vediamo se esce fuori corretta.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={WorkInProgress} className="Logo" alt="logo" />
       </header>
     </div>
   );
