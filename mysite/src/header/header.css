@@ -1,0 +1,20 @@
+.headSpan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 5%;
+    width: 70%;
+  }
+
+.headButton {
+    display: flex;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 20%;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+}

@@ -1,13 +1,15 @@
 import logo from './assets/logo.svg';
-import WorkInProgress from './assets/work-in-progress.png'
+import { Header } from './header/header';
+import { Body } from './body/body';
+import { Footer } from './footer/footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={WorkInProgress} className="Logo" alt="logo" />
-      </header>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
